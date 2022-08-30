@@ -1,0 +1,10 @@
+@import "vars";
+
+div, p {
+  @include font-sans();
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: $medium-padding auto 0;
+}
